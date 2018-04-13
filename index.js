@@ -28,3 +28,6 @@ function makeInt(a) {
   var n = a.toString();
   return n;
 }
+function makeInt() {
+  return parseInt('0x2328', 10);
+}
