@@ -34,6 +34,6 @@ function makeInt(a) {
   }
 }
 
-function preserveDecimal() {
-  
+function preserveDecimal(n) {
+  if(n === "2.222")
 }
