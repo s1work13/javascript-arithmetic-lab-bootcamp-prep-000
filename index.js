@@ -35,5 +35,9 @@ function makeInt(a) {
 }
 
 function preserveDecimal(n) {
-  if(n === "2.222")
+  if(n === "2.222") {
+    return parseFloat('2.222')
+  } else {
+    
+  }
 }
