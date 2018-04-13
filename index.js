@@ -25,6 +25,6 @@ function dec(a) {
 }
 
 function makeInt(a) {
-  var n = a.toString();
+  if(a.toString() === a)
   return n;
 }
